@@ -25,3 +25,25 @@ This project implements an AI-powered browser assistant specifically designed to
 - Automated browser interaction and navigation
 - Page content analysis and summarization
 - Form filling and button clicking capabilities
+
+## 🚀 Getting Started
+
+### Installation
+
+1. Clone the repository
+2. Create a `.env` file in root directory and add `OPENAI_API_KEY` to it.
+3. If you don't have `uv` installed, install it using [this](https://docs.astral.sh/uv/getting-started/installation/#installation-methods).
+4. Install dependencies (root directory): 
+   ```bash
+   uv pip install .
+   ```
+5. Run the application: 
+   ```bash
+   uv run dev
+   ```
+
+### Usage
+
+- Start the application
+- Use voice commands to navigate and interact with the browser
+- Enjoy the hands-free browsing experience!
